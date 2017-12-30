@@ -1,0 +1,39 @@
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery__item{
+    flex-basis: 18%;
+    background-color: $base-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: Rem(30px);
+    margin-bottom: Rem(30px);
+    border: 1px solid #e7e8ec;
+    box-shadow: 1px 3px 9px 1px #edeef2;
+
+    &:nth-last-child(-n+5){
+        margin-bottom: 0;
+    }
+
+    &:hover{
+        background-color: $brand-color;
+        box-shadow: 0px 3px 9px 1px rgba(31, 31, 31, 0.3);
+    }
+
+}
+
+.gallery__item:hover .gallery__img{
+    background-color: $brand-color;
+}
+
+.gallery__img{
+//    filter: opacity(0.7);
+}
+
+.osha{
+    fill: $base-color;
+}

@@ -1,0 +1,32 @@
+.btn{
+    padding: Rem(18px) Rem(66px);
+    border: 1px solid $base-color;
+    border-radius: Rem(3px);
+}
+
+.btn--brand{
+    background-color: $brand-color;
+    border: 1px solid $brand-color;
+    box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+}
+
+.btn--brand-right{
+    background-color: $brand-color;
+    border: 1px solid $brand-color;
+    margin-right: Rem(30px);
+}
+
+.btn--pricing{
+    background-color: $text-color;
+    border: 1px solid $text-color;
+    padding: Rem(16px) Rem(30px);
+    box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+}
+
+.btn--form{
+    background-color: $brand-color;
+    border: 1px solid $brand-color;
+    padding: Rem(14px) Rem(26px);
+    box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}

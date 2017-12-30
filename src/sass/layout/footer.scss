@@ -1,0 +1,46 @@
+.footer{
+
+}
+
+.footer__top{
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    background-position: top center;
+    padding-top: Rem(150px);
+    padding-bottom: Rem(136px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__title{
+    display: flex;
+}
+
+.footer__title-normal{
+
+}
+
+.footer__title--bold{
+    margin-left: Rem(15px);
+}
+
+.footer__text{
+    margin-bottom: Rem(70px);
+}
+
+.footer__bottom{
+    background-color: #202020;
+    padding-top: Rem(34px);
+    padding-bottom: Rem(34px);
+}
+
+.footer__bottom--between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copiright{
+
+}

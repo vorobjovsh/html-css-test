@@ -1,0 +1,28 @@
+.social{
+    display: flex;
+}
+
+.social__icon{
+    width: Rem(25px);
+    height: Rem(25px);
+    margin-right: Rem(25px);
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+}
+
+.social__link{
+
+}
+
+.social__img{
+    height: Rem(25px);
+    fill: $text-color;
+
+    &:hover{
+        fill: $brand-color;
+    }
+
+}

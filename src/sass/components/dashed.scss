@@ -1,0 +1,28 @@
+.dashed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashed__line{
+    background-color: #f1ebe7;
+    width: Rem(80px);
+    height: 1px;
+}
+
+.dashed__dot{
+    border-radius: Rem(7px);
+    background-color: $brand-color;
+    width: Rem(7px);
+    height: Rem(7px);
+    margin-right: Rem(14px);
+    margin-left: Rem(14px);
+}
+
+.dashed__line--pricing{
+    background-color: $text-color;
+}
+
+.dashed__line--great{
+    background-color: #9a9a9a;
+}

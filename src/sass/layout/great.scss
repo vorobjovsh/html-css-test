@@ -1,0 +1,30 @@
+.great{
+    background-color: $header-color;
+    padding-top: Rem(148px);
+    padding-bottom: Rem(137px);
+    border-bottom: 1px solid #d8d9db;
+}
+
+.great__top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: Rem(63px);
+}
+
+.great__title{
+    margin-bottom: Rem(30px);
+}
+
+.great__block-subtext{
+    margin-bottom: Rem(30px);
+}
+
+.great__subtext{
+    text-align: center;
+}
+
+.great__gallery{
+
+}

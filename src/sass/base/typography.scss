@@ -1,0 +1,211 @@
+h1{
+    font-family: $font-OS;
+    font-weight: 700;
+    font-size: Rem(72px);
+    color: $header-color;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: $font-SSP;
+    font-weight: 700;
+    font-size: Rem(36px);
+    color: $title-color;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: $font-OS;
+    font-weight: 600;
+    font-size: Rem(24px);
+    color: $base-color;
+}
+
+h4{
+    font-family: $font-OS;
+    font-weight: 600;
+    font-size: Rem(18px);
+    color: $title-color;
+}
+
+.nav__link{
+    font-family: $font-OS;
+    font-weight: 400;
+    font-size: Rem(14px);
+    color: $header-color;
+    text-transform: uppercase;
+}
+
+.header__subtitle{
+    font-family: $font-SSP;
+    font-weight: 400;
+    color: $header-color;
+}
+
+.header__text{
+    font-family: $font-OS;
+    font-weight: 400;
+    color: $headertext-color;
+}
+
+.btn{
+    font-family: $font-OS;
+    font-weight: 700;
+    font-size: Rem(14px);
+    color: $base-color;
+    text-transform: uppercase;
+
+    &:hover{
+        color: $base-color;
+    }
+
+}
+
+.history__link{
+    font-family: $font-OS;
+    font-weight: 600;
+    font-size: Rem(18px);
+    color: $title-color;
+
+    &:hover{
+        color: $brand-color;
+    }
+
+}
+
+.history__subtext{
+    font-family: $font-SSP;
+    font-weight: 300;
+    font-size: Rem(12px);
+    color: $text-color;
+}
+
+.history__text{
+    font-family: $font-SSP;
+    font-weight: 400;
+    font-size: Rem(14px);
+    color: $text-color;
+}
+
+.services__text{
+    font-family: $font-SSP;
+    font-weight: 400;
+    font-size: Rem(14px);
+    color: $text-color;
+}
+
+.pricing__subtitle{
+    font-family: $font-OS;
+    font-weight: 400;
+    font-size: Rem(14px);
+    color: $text-color;
+}
+
+.card__price{
+    font-family: $font-SSP;
+    font-weight: 700;
+    font-size: Rem(39.51px);
+    color: $text-color;
+    line-height: 1;
+}
+
+.card__term{
+    font-family: $font-SSP;
+    font-weight: 400;
+    font-size: Rem(13.17px);
+    color: $text-color;
+}
+
+.card__text{
+    font-family: $font-OS;
+    font-weight: 600;
+    font-size: Rem(14px);
+    color: $text-color;
+}
+
+.btn--pricing{
+    font-family: $font-OS;
+    font-weight: 600;
+    font-size: Rem(12px);
+    color: $base-color;
+}
+
+.great__subtext{
+    font-family: $font-OS;
+    font-weight: 400;
+    font-size: Rem(14px);
+    color: $text-color;
+}
+
+.blog-more{
+    color: $base-color;
+    font-family: $font-OS;
+    font-weight: 400;
+}
+
+.blog-more__subtitle{
+    font-size: Rem(14px);
+}
+
+.blog-more__text{
+    font-size: Rem(16px);
+}
+
+.blog-more__link{
+    font-family: $font-OS;
+    font-weight: 600;
+    font-size: Rem(18px);
+    font-style: italic;
+    color: $base-color;
+
+    &:hover{
+        color: $base-color;
+    }
+
+}
+
+.keep__subtext{
+    font-family: $font-OS;
+    font-weight: 400;
+    font-size: Rem(14px);
+    color: $text-color;
+}
+
+.keep__subtitle{
+    font-family: $font-SSP;
+    font-weight: 600;
+    font-size: Rem(24px);
+    color: $brand-color;
+}
+
+.keep__text{
+    font-family: $font-OS;
+    font-weight: 400;
+    font-size: Rem(18px);
+    color: $text-color;
+}
+
+.footer__title-normal{
+    font-family: $font-OS;
+    font-weight: 400;
+    font-size: Rem(36px);
+    color: $base-color;
+}
+
+.footer__title--bold{
+    font-weight: 700;
+}
+
+.footer__text{
+    font-family: $font-OS;
+    font-weight: 400;
+    font-size: Rem(18px);
+    color: $base-color;
+}
+
+.footer__copiright{
+    font-family: $font-OS;
+    font-weight: 600;
+    font-size: Rem(14px);
+    color: $text-color;
+}

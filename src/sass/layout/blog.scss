@@ -1,0 +1,46 @@
+.blog{
+    padding-top: Rem(118px);
+    background-color: $header-color;
+}
+
+.blog__top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: Rem(70px);
+}
+
+.blog__title{
+
+}
+
+.blog__subtext{
+    margin-bottom: Rem(30px);
+}
+
+.blog__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.blog__item{
+    flex-basis: 25%;
+    background-color: $brand-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog__img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog__img{
+
+}

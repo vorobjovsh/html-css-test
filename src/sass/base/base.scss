@@ -1,0 +1,23 @@
+body{
+    min-width: Rem(320px);
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+
+}
+
+img, svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+p{
+    margin-bottom: 0;
+}

@@ -1,0 +1,35 @@
+/*
+   Import partials below
+*/
+
+@import 'utils/variables.scss';
+@import 'utils/mixins.scss';
+@import 'utils/functions.scss';
+
+@import 'base/reset.scss';
+@import '../../node_modules/bootstrap/dist/css/bootstrap-reboot';
+@import 'base/base.scss';
+@import 'base/fonts.scss';
+@import 'base/typography.scss';
+
+@import '../../node_modules/bootstrap/dist/css/bootstrap-grid';
+
+@import 'layout/header.scss';
+@import 'layout/main-block.scss';
+@import 'layout/history.scss';
+@import 'layout/services.scss';
+@import 'layout/pricing.scss';
+@import 'layout/great.scss';
+@import 'layout/blog.scss';
+@import 'layout/keep.scss';
+@import 'layout/footer.scss';
+
+@import 'components/dashed.scss';
+@import 'components/nav.scss';
+@import 'components/btn.scss';
+@import 'components/section.scss';
+@import 'components/card.scss';
+@import 'components/gallery.scss';
+@import 'components/blog-more.scss';
+@import 'components/form.scss';
+@import 'components/social.scss';

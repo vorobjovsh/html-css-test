@@ -1,0 +1,49 @@
+.keep{
+    padding-top: Rem(148px);
+    padding-bottom: Rem(148px);
+    background-color: $header-color;
+}
+
+.keep__top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: Rem(65px);
+}
+
+.keep__title{
+
+}
+
+.keep__subtext{
+    margin-bottom: Rem(26px);
+}
+
+.keep__block-content{
+    background-color: $base-color;
+    padding: Rem(100px) Rem(90px);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: Rem(3px);
+}
+
+.keep__block-content--height{
+    height: 100%;
+}
+
+.keep__subtitle{
+    margin-bottom: Rem(28px);
+}
+
+.keep__block-text{
+    margin-bottom: Rem(68px);
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+}
+
+.keep__text{
+
+}
