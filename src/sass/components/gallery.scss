@@ -7,9 +7,7 @@
 .gallery__item{
     flex-basis: 18%;
     background-color: $base-color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     padding: Rem(30px);
     margin-bottom: Rem(30px);
     border: 1px solid #e7e8ec;

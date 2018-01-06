@@ -5,10 +5,7 @@
 }
 
 .keep__top{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center-col;
     margin-bottom: Rem(65px);
 }
 

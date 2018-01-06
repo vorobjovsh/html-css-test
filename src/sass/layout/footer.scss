@@ -8,10 +8,7 @@
     background-position: top center;
     padding-top: Rem(150px);
     padding-bottom: Rem(136px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center-col;
 }
 
 .footer__title{

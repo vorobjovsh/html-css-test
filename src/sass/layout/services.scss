@@ -60,9 +60,7 @@
     height: Rem(55px);
     border-radius: Rem(36.5px);
     border: 4px solid #585858;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     background-color: $header-color;
 }
 

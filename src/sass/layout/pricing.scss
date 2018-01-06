@@ -5,10 +5,7 @@
 
 .pricing__top{
     margin-bottom: Rem(67px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center-col;
 }
 
 .pricing__title{

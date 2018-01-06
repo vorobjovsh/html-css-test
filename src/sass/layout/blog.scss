@@ -4,10 +4,7 @@
 }
 
 .blog__top{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center-col;
     margin-bottom: Rem(70px);
 }
 
@@ -30,15 +27,11 @@
 .blog__item{
     flex-basis: 25%;
     background-color: $brand-color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
 }
 
 .blog__img-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
 }
 
 .blog__img{

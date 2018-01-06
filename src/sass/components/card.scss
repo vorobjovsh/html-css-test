@@ -19,10 +19,7 @@
     padding-top: Rem(50px);
     padding-bottom: Rem(130px);
     background-color: $text-color;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center-col;
 }
 
 .card__title{
@@ -36,10 +33,7 @@
     border-radius: Rem(88px);
     top: Rem(133px);
     background-color: hsla(228, 29%, 97%, 0.2);;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    @include flex-center;
 }
 
 .card__price-wrapper{
@@ -47,10 +41,7 @@
     height: Rem(152px);
     border-radius: Rem(76px);
     background-color: $base-color;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center-col;
 }
 
 .card__price{
@@ -62,10 +53,7 @@
 }
 
 .card__block{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center-col;
     background-color: $header-color;
     padding-top: Rem(124px);
     padding-bottom: Rem(49px);

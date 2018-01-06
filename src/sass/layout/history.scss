@@ -8,10 +8,7 @@
 }
 
 .history__section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center-col;
 }
 
 .history__section:hover .history__block-outside{
@@ -42,9 +39,7 @@
     bottom: 1px;
     left: 1px;
     background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
 }
 
 .history__icon{
